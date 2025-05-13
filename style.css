@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Oswald:wght@200..700&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Mogra&family=Oswald:wght@200..700&family=Rubik+Moonrocks&display=swap');
+:root{
+    --cor0: #4B7CCC;
+    --cor1: #77F2FF;
+    --cor3: #858D99;
+    --cor4: #FF8658;
+    --cor5: #CC5948;
+    --fonten1: verdana, Geneva, tahoma, sans-serif;
+    --fonten2:'Oswald', cursive;
+    --fonten3:'Mogra', cursive;
+    
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+html, body{
+    max-height: 100vh;
+     background-color: #858D99;
+     font-family: var(--fonten1);
+}
+
+header{
+    background-image: linear-gradient( #4B7CCC,#CC5948 );
+    color: white;
+    text-align: center;
+}
+
+header h1{
+       padding-top: 50px;
+       font-variant: small-caps;
+       
+
+}
+
+header p{
+    padding-bottom: 50px;
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header a:hover, footer a:hover{
+ text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2.5em;
+    padding: 30px;
+    font-family: var(--fonten3);
+}
+
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: black;
+    color: white;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.619);
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+
+section.imagem > p{
+    display: block;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.694);
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+section p{
+    padding: 1.5em;
+}
+
+section#img01{
+    background-image: url(Boas-vindas\ Outono\ Instagram\ Post.png);
+    background-position: bottom center;
+    color: white;
+   
+}
+
+section#img02{
+     background-image: url(Boas-vindas\ Outono\ Instagram\ Post\ \(8\).png);
+     background-position: center center;
+     color: white;
+   
+}
+
+footer{
+    background-image: linear-gradient( #CC5948); 
+    color:black;
+    text-align: center;
+    padding: 10px;
+}
+
+
