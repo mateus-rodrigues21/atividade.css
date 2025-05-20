@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    background-color: black;
+    padding: 11px 25px;
+}
+
+header .menu {
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}   
+
+button{
+    background-color: #F0B35B;
+    color: black;
+    padding: 10px 80px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;   
+}
+
+
+.hero{
+    background-image: url(hero.png);
+    background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.hero p { 
+    font-size: 28px;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 200px 150px;
+
+    
+}
+div#imagem{
+  position: absolute;
+  height: 96vh;
+  display: flex ;
+  left: bottom;
+
+
+}
