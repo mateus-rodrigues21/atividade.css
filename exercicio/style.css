@@ -1,11 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
+
     font-family: "Poppins", sans-serif;
 }
 
 header {
-     display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 80px;
@@ -22,9 +23,9 @@ header a {
     text-decoration: none;
     color: white;
     font-size: 18px;
-}   
+}
 
-button{
+button {
     background-color: #F0B35B;
     color: black;
     padding: 10px 80px;
@@ -34,14 +35,15 @@ button{
 }
 
 button:hover {
-    opacity: 0.7;   
+    opacity: 0.7;
 }
 
 
-.hero{
+.hero {
     background-image: url(hero.png);
     background-size: cover;
     min-height: 100vh;
+    position: relative;
 
     display: flex;
     justify-content: center;
@@ -53,26 +55,89 @@ button:hover {
     text-align: center;
 }
 
+.hero::after {
+    content: '';
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, black);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 .hero h1 {
     font-size: 44px;
     font-weight: bold;
     line-height: 50px;
 }
 
-.hero p { 
+.hero p {
     font-size: 28px;
 }
-main{
-    background-color: rgba(0, 0, 0, 0.89);
-    padding: 200px 150px;
 
-    
+.section2 {
+    background-color: black;
+    padding: 100px 200px;
+    color: white;
+    display: flex;
+    gap: 80px;
 }
-div#imagem{
-  position: absolute;
-  height: 96vh;
-  display: flex ;
-  left: bottom;
+
+.section2 .images {
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+    align-items:flex-end ;
+
+}
+
+.section2 p {
+    margin-bottom: 20px;
+
+}
+
+.section2 img {
+    height: 100px;
+
+}
+
+footer {
+    content: "";
+    text-align: center;
+    gap: 25px;
+    padding: 100px 200px;
+    height: 300px;
+}
 
 
+footer .imagem3 {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    padding: 50px 50px;
+
+}
+
+footer .imagem4 {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding: 100px 100px;
+    height: 200px;
+
+}
+
+footer .imagem5 {
+    padding: 100px 200px;
+    gap: 50px;
+    margin-right: 20px;
+
+}
+footer .imagem6{
+    background-color: white;
+    padding: 100px 200px;
+    text-align: center;
+    height: 30px;
+    gap: 20px;
 }
